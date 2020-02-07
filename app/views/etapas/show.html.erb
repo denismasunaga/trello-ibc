@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nome:</strong>
+  <%= @etapa.nome %>
+</p>
+
+<p>
+  <strong>Board:</strong>
+  <%= @etapa.board_id %>
+</p>
+
+<%= link_to 'Edit', edit_etapa_path(@etapa) %> |
+<%= link_to 'Back', etapas_path %>

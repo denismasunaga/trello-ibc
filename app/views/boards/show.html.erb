@@ -1,0 +1,78 @@
+<!--<p id="notice"><%#= notice %></p>-->
+
+<!--<p>-->
+<!--  <strong>Nome:</strong>-->
+<%#= @board.nome %>
+<!--</p>-->
+
+<!--<p>-->
+<!--  <strong>Descricao:</strong>-->
+<%#= @board.descricao %>
+<!--</p>-->
+
+<!--<p>-->
+<!--  <strong>Color:</strong>-->
+<%#= @board.color %>
+<!--</p>-->
+
+<!--<p>-->
+<!--  <strong>User:</strong>-->
+<%#= @board.user_id %>
+<!--</p>-->
+
+<!--<%#= link_to 'Edit', edit_board_path(@board) %> |-->
+<%#= link_to 'Back', boards_path %>
+
+<div style="margin-top: 2rem;">
+  <div class="container-fluid">
+    <div class="row center-element">
+      <div class="col-md-12 col-sm-12 margin-top">
+        <h2><%= @board.nome %></h2>
+        <!--      <h4>Nova etapa</h4>-->
+        <%= link_to new_etapa_path do %>
+          <i class="fa fa-plus-circle fa-3x"></i>
+        <% end %>
+      </div>
+    </div>
+    <% if @etapas %>
+      <div class="row flex-nowrap" style="margin-top: 2rem;">
+        <% @etapas.each_with_index do |etapa, i| %>
+          <div class="col-md-3 center-element" style="background-color: <%= i % 2 == 0 ? 'lightgray;' : 'lightslategray;' %>">
+            <h5><%= etapa.nome %></h5>
+            <% etapa.tasks.order('created_at ASC').each do |task| %>
+              <div class="card border-dark" style="margin-bottom: 1rem;">
+                <div class="card-header">
+                  <h6><%= task.nome %></h6>
+                </div>
+                <div class="card-body d-flex flex-column">
+                  <div>
+                    <p><%= task.descricao %></p>
+                  </div>
+                  <div class="mt-auto" style="text-align: right;">
+                    <%= link_to task_path(task), method: :delete, data: {confirm: 'Deseja realmente excluir esta tarefa?'} do %>
+                      <i class="fa fa-trash"></i>
+                    <% end %>
+
+                    <%= link_to edit_task_path(task) do %>
+                      <i class="fa fa-edit"></i>
+                    <% end %>
+                    <!--                    <a href="#"><i class="fa-trash"></i></a>-->
+                  </div>
+                </div>
+              </div>
+            <% end %>
+          </div>
+        <% end %>
+    <% else %>
+      <div class="row center-element">
+        <div class="col-md-12 col-sm-12">
+          <div class="margin-top">
+            <h4>Sem etapas para exibir.</h4>
+          </div>
+        </div>
+      </div>
+
+    <% end %>
+    </div>
+  </div>
+</div>
