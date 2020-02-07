@@ -84,7 +84,7 @@ test:
 #
 production:
   <<: *default
-  url:      <%= ENV['DATABASE_URL']>
+  url:      <%= ENV['DATABASE_URL'] %>
   database: trello_ibc_production
   username: trello_ibc
   password: <%= ENV['DATABASE_PASSWORD'] %>
