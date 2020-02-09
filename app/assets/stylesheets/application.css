@@ -29,3 +29,16 @@
 a:hover {
     background-color: lightgray;
 }
+
+.customLink:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.customLink:hover {
+    color: blue;
+}
+
+.customLink {
+    color: black;
+}

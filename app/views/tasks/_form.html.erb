@@ -22,18 +22,13 @@
   </div>
 
   <div class="field">
-    <%= form.label :status %>
-    <%= form.text_field :status, class: "form-control" %>
-  </div>
-
-  <div class="field">
     <%= form.label :etapa %>
     <%#= form.text_field :status, class: "form-control" %>
-    <%= form.select :etapa_id, options_from_collection_for_select(task.etapa.board.etapas, "id", "nome", task.etapa.id.to_s) %>
-    <%#= select_tag('task[etapa_id]', options_from_collection_for_select(task.etapa.board.etapas, "id", "nome", task.etapa.id.to_s)) %>
+    <%= form.select :etapa_id, options_from_collection_for_select(@board.etapas, "id", "nome", task.etapa == nil ? @etapa.id : task.etapa.id), {}, {class: "form-control"} %>
+
   </div>
 
   <div class="actions">
-    <%= form.submit %>
+    <%= form.submit 'Salvar task', class: "btn btn-primary" %>
   </div>
 <% end %>

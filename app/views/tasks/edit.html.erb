@@ -1,11 +1,8 @@
-<h1>Editing Task</h1>
-
 <div class="container-fluid">
-
+  <h3>Editando Task</h3>
   <%= render 'form', task: @task %>
 
-  <%= link_to 'Show', @task %> |
-  <%= link_to 'Back', tasks_path %>
+  <%= link_to 'Voltar', board_url(@task.etapa.board) %>
 
 </div>
 

@@ -1,4 +1,7 @@
 class Etapa < ApplicationRecord
   belongs_to :board
-  has_many :tasks
+
+  validates_presence_of :nome, :ordem
+
+  has_many :tasks, dependent: :delete_all
 end

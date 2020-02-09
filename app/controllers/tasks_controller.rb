@@ -1,5 +1,6 @@
 class TasksController < ApplicationController
   before_action :set_task, only: [:show, :edit, :update, :destroy]
+  before_action :set_board, only: [:new, :update, :edit]
 
   # GET /tasks
   # GET /tasks.json
@@ -15,6 +16,7 @@ class TasksController < ApplicationController
   # GET /tasks/new
   def new
     @task = Task.new
+    @etapa = Etapa.find(params[:etapa])
   end
 
   # GET /tasks/1/edit
@@ -28,7 +30,7 @@ class TasksController < ApplicationController
 
     respond_to do |format|
       if @task.save
-        format.html { redirect_to @task, notice: 'Task was successfully created.' }
+        format.html { redirect_to board_url(@task.etapa.board), notice: 'A task foi criada com sucesso.' }
         format.json { render :show, status: :created, location: @task }
       else
         format.html { render :new }
@@ -42,7 +44,7 @@ class TasksController < ApplicationController
   def update
     respond_to do |format|
       if @task.update(task_params)
-        format.html { redirect_to @task, notice: 'Task was successfully updated.' }
+        format.html { redirect_to board_url(@task.etapa.board), notice: 'A task foi atualizada com sucesso.' }
         format.json { render :show, status: :ok, location: @task }
       else
         format.html { render :edit }
@@ -62,13 +64,17 @@ class TasksController < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_task
-      @task = Task.find(params[:id])
-    end
+  # Use callbacks to share common setup or constraints between actions.
+  def set_task
+    @task = Task.find(params[:id])
+  end
 
-    # Never trust parameters from the scary internet, only allow the white list through.
-    def task_params
-      params.require(:task).permit(:nome, :descricao, :status, :etapa_id)
-    end
+  def set_board
+    @board = Board.find(session[:user_board])
+  end
+
+  # Never trust parameters from the scary internet, only allow the white list through.
+  def task_params
+    params.require(:task).permit(:nome, :descricao, :status, :etapa_id)
+  end
 end

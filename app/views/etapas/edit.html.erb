@@ -1,6 +1,12 @@
-<h1>Editing Etapa</h1>
+<div class="container-fluid">
+  <h3>Editando etapa</h3>
 
-<%= render 'form', etapa: @etapa %>
+  <%= render 'form', etapa: @etapa %>
 
-<%= link_to 'Show', @etapa %> |
-<%= link_to 'Back', etapas_path %>
+  <!--  <%#= link_to 'Show', @etapa %> |-->
+  <%= link_to 'Voltar', board_url(@etapa.board) %>
+  |
+  <%= link_to etapa_path(@etapa), method: :delete, data: {confirm: 'Isso deletará todas as tarefas atribuídas a esta etapa. Deseja continuar?'} do %>
+    Deletar
+  <% end %>
+</div>

@@ -7,7 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 user = User.create!(email: 'denismasunaga@gmail.com', password: 'q1w2e3r4t5', password_confirmation: 'q1w2e3r4t5')
 # user = User.first
-Board.create!(nome: 'Kernel Linux Board', descricao: 'Desenvolvimento do kernel linux', color: 'green', user_id: user.id)
+Board.create!(nome: 'Kernel Linux Board', descricao: 'Desenvolvimento do kernel linux', color: 'dark', user_id: user.id)
 Board.create!([
                  {
                      nome: 'Kernel Linux Board',
@@ -54,7 +54,7 @@ Board.create!([
                      user_id: user.id
                  },
                  {
-                     nome: 'Kernel Linux Board', descricao: 'Desenvolvimento do kernel linux', color: 'green', user_id: user.id
+                     nome: 'Kernel Linux Board', descricao: 'Desenvolvimento do kernel linux', color: 'light', user_id: user.id
                  }
              ])
 board = Board.first

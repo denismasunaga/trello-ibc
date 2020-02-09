@@ -42,7 +42,7 @@ class EtapasController < ApplicationController
   def update
     respond_to do |format|
       if @etapa.update(etapa_params)
-        format.html { redirect_to @etapa, notice: 'Etapa was successfully updated.' }
+        format.html { redirect_to board_url(@etapa.board), notice: 'Etapa was successfully updated.' }
         format.json { render :show, status: :ok, location: @etapa }
       else
         format.html { render :edit }
@@ -56,7 +56,7 @@ class EtapasController < ApplicationController
   def destroy
     @etapa.destroy
     respond_to do |format|
-      format.html { redirect_to etapas_url, notice: 'Etapa was successfully destroyed.' }
+      format.html { redirect_to board_url(@etapa.board), notice: 'Etapa was successfully destroyed.' }
       format.json { head :no_content }
     end
   end

@@ -23,10 +23,10 @@
 
   <div class="field d-none">
     <%= form.label :board_id %>
-    <%= form.text_field :board_id, value: session[:user_board]['id'] %>
+    <%= form.text_field :board_id, value: session[:user_board] %>
   </div>
 
   <div class="actions">
-    <%= form.submit 'Criar Etapa', class: "btn btn-primary" %>
+    <%= form.submit 'Salvar etapa', class: "btn btn-primary" %>
   </div>
 <% end %>
