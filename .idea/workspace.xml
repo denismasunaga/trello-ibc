@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fcd18a6c-952f-4757-829f-c2075e52f6fc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.ebextensions/rails.config" beforeDir="false" afterPath="$PROJECT_DIR$/.ebextensions/rails.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -25,17 +26,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+            <state relative-caret-position="459">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile.lock">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="252" column="30" lean-forward="true" selection-start-line="252" selection-start-column="30" selection-end-line="252" selection-end-column="30" />
+            <state relative-caret-position="661">
+              <caret line="265" column="17" lean-forward="true" selection-start-line="265" selection-start-column="17" selection-end-line="265" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -61,17 +62,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="634">
-              <caret line="86" column="33" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="33" />
+            <state relative-caret-position="702">
+              <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.ebextensions/rails.config">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="66" selection-start-line="3" selection-start-column="66" selection-end-line="3" selection-end-column="66" />
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -142,7 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/views/home/home.html.erb" />
         <option value="$PROJECT_DIR$/app/views/home/boards.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/board_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
@@ -192,6 +192,7 @@
         <option value="$PROJECT_DIR$/.ebextensions/01_install_bundler.config" />
         <option value="$PROJECT_DIR$/.ebextensions/upgrade_bundler.config" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
+        <option value="$PROJECT_DIR$/Gemfile.lock" />
         <option value="$PROJECT_DIR$/.ebextensions/rails.config" />
       </list>
     </option>
@@ -447,12 +448,12 @@
       <workItem from="1581195138350" duration="18869000" />
       <workItem from="1581261300478" duration="18502000" />
       <workItem from="1581305427218" duration="1990000" />
-      <workItem from="1581379625868" duration="8277000" />
+      <workItem from="1581379625868" duration="9861000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108373000" />
+    <option name="totallyTimeSpent" value="109957000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="0" width="1680" height="1020" extended-state="6" />
@@ -790,29 +791,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="86" column="33" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="33" />
+        <state relative-caret-position="702">
+          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="252" column="30" lean-forward="true" selection-start-line="252" selection-start-column="30" selection-end-line="252" selection-end-column="30" />
+        <state relative-caret-position="459">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.ebextensions/rails.config">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="66" selection-start-line="3" selection-start-column="66" selection-end-line="3" selection-end-column="66" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="661">
+          <caret line="265" column="17" lean-forward="true" selection-start-line="265" selection-start-column="17" selection-end-line="265" selection-end-column="17" />
         </state>
       </provider>
     </entry>
