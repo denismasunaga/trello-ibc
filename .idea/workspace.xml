@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcd18a6c-952f-4757-829f-c2075e52f6fc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.ebextensions/gem_install_bundler.config" beforeDir="false" afterPath="$PROJECT_DIR$/.ebextensions/gem_install_bundler.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ruby-version" beforeDir="false" afterPath="$PROJECT_DIR$/.ruby-version" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -22,16 +23,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+            <state relative-caret-position="51">
+              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.ebextensions/gem_install_bundler.config">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -179,7 +180,6 @@
         <option value="$PROJECT_DIR$/spec/models/task_spec.rb" />
         <option value="$PROJECT_DIR$/app/models/task.rb" />
         <option value="$PROJECT_DIR$/spec/DeviseRequestSpecHelpers.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/spec/factories/devise.rb" />
         <option value="$PROJECT_DIR$/spec/support/controller_macros.rb" />
         <option value="$PROJECT_DIR$/spec/rails_helper.rb" />
@@ -187,6 +187,7 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/.ebextensions/gem_install_bundler.config" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -442,12 +443,12 @@
       <workItem from="1581195138350" duration="18869000" />
       <workItem from="1581261300478" duration="18502000" />
       <workItem from="1581305427218" duration="1990000" />
-      <workItem from="1581379625868" duration="310000" />
+      <workItem from="1581379625868" duration="1518000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100406000" />
+    <option name="totallyTimeSpent" value="101614000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="0" width="1680" height="1020" extended-state="6" />
@@ -800,17 +801,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.ebextensions/gem_install_bundler.config">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
         </state>
       </provider>
     </entry>
