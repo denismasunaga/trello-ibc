@@ -4,7 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/app/views/etapas/edit.html.erb" line="6" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcd18a6c-952f-4757-829f-c2075e52f6fc" name="Default Changelist" comment="" />
+    <list default="true" id="fcd18a6c-952f-4757-829f-c2075e52f6fc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.ebextensions/01_install_bundler.config" beforeDir="false" afterPath="$PROJECT_DIR$/.ebextensions/upgrade_bundler.config" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/log/" />
@@ -32,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile.lock">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1481">
-              <caret line="139" column="31" lean-forward="true" selection-start-line="139" selection-start-column="31" selection-end-line="139" selection-end-column="31" />
+            <state relative-caret-position="695">
+              <caret line="252" column="30" lean-forward="true" selection-start-line="252" selection-start-column="30" selection-end-line="252" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -66,10 +68,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.ebextensions/01_install_bundler.config">
+        <entry file="file://$PROJECT_DIR$/.ebextensions/upgrade_bundler.config">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+              <caret line="2" column="68" lean-forward="true" selection-start-line="2" selection-start-column="68" selection-end-line="2" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -140,7 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/db/schema.rb" />
         <option value="$PROJECT_DIR$/app/controllers/home_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/home/home.html.erb" />
         <option value="$PROJECT_DIR$/app/views/home/boards.html.erb" />
@@ -191,6 +192,7 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/.ebextensions/gem_install_bundler.config" />
         <option value="$PROJECT_DIR$/.ebextensions/01_install_bundler.config" />
+        <option value="$PROJECT_DIR$/.ebextensions/upgrade_bundler.config" />
       </list>
     </option>
   </component>
@@ -445,12 +447,12 @@
       <workItem from="1581195138350" duration="18869000" />
       <workItem from="1581261300478" duration="18502000" />
       <workItem from="1581305427218" duration="1990000" />
-      <workItem from="1581379625868" duration="4502000" />
+      <workItem from="1581379625868" duration="4794000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104598000" />
+    <option name="totallyTimeSpent" value="104890000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="0" width="1680" height="1020" extended-state="6" />
@@ -802,15 +804,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile.lock">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1481">
-          <caret line="139" column="31" lean-forward="true" selection-start-line="139" selection-start-column="31" selection-end-line="139" selection-end-column="31" />
+        <state relative-caret-position="695">
+          <caret line="252" column="30" lean-forward="true" selection-start-line="252" selection-start-column="30" selection-end-line="252" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.ebextensions/01_install_bundler.config">
+    <entry file="file://$PROJECT_DIR$/.ebextensions/upgrade_bundler.config">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+          <caret line="2" column="68" lean-forward="true" selection-start-line="2" selection-start-column="68" selection-end-line="2" selection-end-column="68" />
         </state>
       </provider>
     </entry>
