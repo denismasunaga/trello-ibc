@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcd18a6c-952f-4757-829f-c2075e52f6fc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ebextensions/gem_install_bundler.config" beforeDir="false" afterPath="$PROJECT_DIR$/.ebextensions/gem_install_bundler.config" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -442,12 +442,12 @@
       <workItem from="1581195138350" duration="18869000" />
       <workItem from="1581261300478" duration="18502000" />
       <workItem from="1581305427218" duration="1990000" />
-      <workItem from="1581379625868" duration="74000" />
+      <workItem from="1581379625868" duration="310000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100170000" />
+    <option name="totallyTimeSpent" value="100406000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="0" width="1680" height="1020" extended-state="6" />
