@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcd18a6c-952f-4757-829f-c2075e52f6fc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.ebextensions/rails.config" beforeDir="false" afterPath="$PROJECT_DIR$/.ebextensions/rails.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/trello-ibc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/trello-ibc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ebextensions/rails.config" beforeDir="false" afterPath="$PROJECT_DIR$/.ebextensions/02_rails.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -61,10 +60,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.ebextensions/rails.config">
+        <entry file="file://$PROJECT_DIR$/.ebextensions/02_rails.config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.ebextensions/01_nvm.config">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -135,8 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/views/home/boards.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/board_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20200205011321_create_tasks.rb" />
@@ -186,6 +192,8 @@
         <option value="$PROJECT_DIR$/Gemfile.lock" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.ebextensions/rails.config" />
+        <option value="$PROJECT_DIR$/.ebextensions/01_nvm.config" />
+        <option value="$PROJECT_DIR$/.ebextensions/02_rails.config" />
       </list>
     </option>
   </component>
@@ -409,12 +417,12 @@
       <workItem from="1581261300478" duration="18502000" />
       <workItem from="1581305427218" duration="1990000" />
       <workItem from="1581379625868" duration="10714000" />
-      <workItem from="1581887913036" duration="3690000" />
+      <workItem from="1581887913036" duration="4625000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114500000" />
+    <option name="totallyTimeSpent" value="115435000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="0" width="1680" height="1020" extended-state="6" />
@@ -445,13 +453,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/tasks/_task.json.jbuilder">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20200205032616_create_join_table_users_tables.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -769,10 +770,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.ebextensions/rails.config">
+    <entry file="file://$PROJECT_DIR$/.ebextensions/01_nvm.config">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.ebextensions/02_rails.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
         </state>
       </provider>
     </entry>
